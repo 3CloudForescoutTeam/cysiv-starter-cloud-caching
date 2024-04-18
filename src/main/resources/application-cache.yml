@@ -1,0 +1,6 @@
+# Read Redis Host + Port from KeyVault
+spring:
+  data:
+    redis:
+      host: ${AZURE_REDIS_HOST}
+      port: ${AZURE_REDIS_PORT}
